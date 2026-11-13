@@ -3,7 +3,10 @@ function setup(){
     createCanvas(400, 600);
 }
 function draw(){
-background( 10, 200, 255);
+background(137, 207, 240);
+
+fill (194, 242, 177);
+rect(100, 450, 100, 30);
 }
 
 // Start screen
@@ -12,7 +15,6 @@ background( 10, 200, 255);
 //normal platforms 
 
     //gräs
-
 
     // moln
 
