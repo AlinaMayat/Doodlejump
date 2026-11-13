@@ -20,10 +20,19 @@ rect(100, 450, 100, 30);
 
 
 // moving platform
+    //gräs
+
+    //moln
+
+
 
 //Breaking platforms
 
 // losing platform(spikar)
+
+// fåglar
+
+//flygplan
 
 
 //losing screen
