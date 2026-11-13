@@ -10,9 +10,18 @@ function setup(){
 
 //normal platforms 
 
+    //gräs
+
+
+    // moln
+
+
 // moving platform
 
-//BReaking platforms
+//Breaking platforms
+
+// losing platform(spikar)
+
 
 //losing screen
 
