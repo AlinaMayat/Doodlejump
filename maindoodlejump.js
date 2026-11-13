@@ -1,9 +1,10 @@
 //backgrund
 function setup(){
     createCanvas(400, 600);
-    background(255);
 }
-
+function draw(){
+background( 10, 200, 255);
+}
 
 // Start screen
 //3, 2, 1, GO!
