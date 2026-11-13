@@ -4,17 +4,15 @@ function setup(){
 }
 function draw(){
 background(137, 207, 240);
-
-fill (194, 242, 177);
-rect(100, 450, 100, 30);
-}
-
 // Start screen
     //3, 2, 1, GO!
 
 //normal platforms 
 
     //gräs
+fill (194, 242, 177);
+rect(100, 450, 100, 30);
+
 
     // moln
 
@@ -39,8 +37,10 @@ rect(100, 450, 100, 30);
     //You Lost! 
 
 //character
-
+}
 
 //
+
+
 
 
