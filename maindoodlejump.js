@@ -6,7 +6,7 @@ function setup(){
 
 
 // Start screen
-
+//3, 2, 1, GO!
 
 //normal platforms 
 
@@ -24,7 +24,7 @@ function setup(){
 
 
 //losing screen
-
+//You Lost! 
 
 //character
 
