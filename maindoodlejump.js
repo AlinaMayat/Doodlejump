@@ -7,7 +7,7 @@ background( 10, 200, 255);
 }
 
 // Start screen
-//3, 2, 1, GO!
+    //3, 2, 1, GO!
 
 //normal platforms 
 
@@ -25,7 +25,7 @@ background( 10, 200, 255);
 
 
 //losing screen
-//You Lost! 
+    //You Lost! 
 
 //character
 
