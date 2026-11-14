@@ -27,6 +27,14 @@ rect(100, 450, 100, 30);
     //gräs
 
     //moln
+    fill(255);
+    noStroke(circle);
+    moln1 = 
+        circle(20, 100, 30);
+        circle(39, 85, 20);
+        circle(65, 95, 40);
+        circle(90, 100, 30);
+        circle(39, 95, 45);
 
 
 
