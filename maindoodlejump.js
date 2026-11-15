@@ -2,6 +2,10 @@
 function setup(){
     createCanvas(400, 600);
 }
+
+let moln1x = 240;
+let moln1xSpeedx = 1.5;
+
 function draw(){
 background(137, 207, 240);
 // Start screen
@@ -17,7 +21,9 @@ background(137, 207, 240);
 
     //gräs
 fill (194, 242, 177);
-rect(100, 450, 100, 30);
+rect(100, 450, 100, 20);
+fill(100, 50, 2);
+rect(100, 470, 100, 15);
 
 
     // moln
@@ -33,6 +39,18 @@ rect(100, 450, 100, 30);
 
 // moving platform
     //gräs
+    
+    
+
+    moln1x = moln1x + moln1xSpeedx;
+    if(moln1x > 350 || moln1x < 230){
+        moln1xSpeedx = -moln1xSpeedx;     
+    }
+    
+    fill(192, 245, 180);
+    rect(moln1x, 400, 100, 30);
+    fill(100, 50, 2);
+    rect(moln1x, 420, 100, 15);
 
     //moln
     
