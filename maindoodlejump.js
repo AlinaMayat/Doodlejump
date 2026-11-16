@@ -4,6 +4,7 @@ function setup(){
 }
 function draw(){
 background(137, 207, 240);
+
 // Start screen
     //3, 2, 1, GO!
 
@@ -37,10 +38,5 @@ rect(100, 450, 100, 30);
     //You Lost! 
 
 //character
+
 }
-
-//
-
-
-
-
