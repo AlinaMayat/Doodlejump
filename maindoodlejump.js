@@ -72,23 +72,29 @@ rect(100, 470, 100, 15);
     //You Lost! 
 
 //character
+//hår
 fill(230, 500, 0);
 rect(200, 490, 55, 60, 10);
+//huvud
 fill(220, 190, 150);
 circle(227, 510, 30);
 rect(220, 515, 15, 50);
+//hår
 fill(230, 500, 0);
 arc(227, 503, 55, 50, PI, 0);
-
+//upperbody
 fill(20, 40, 80);
 triangle(230, 570, 215, 530, 240, 530);
+//ben
 fill(225);
 triangle(210, 570, 225, 570, 210, 600);
 fill(225);
 triangle(250, 570, 235, 570, 250, 600);
+//kjol
 fill(20, 40, 80);
 arc(230, 570, 60, 50, PI, 0);
 fill(0);
+//fötter
 circle(210, 595, 10);
 circle(250, 595, 10);
 
