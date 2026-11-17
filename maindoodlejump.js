@@ -13,12 +13,6 @@ function draw() {
   //Moving platform - cards
   //Breaking platforms - Teacups/porcelain
 
-//normal still platforms - books
-
-//moving platforms - cards
-
-//Breaking platforms - Teacups
-
 
     // moln
      fill(255);
