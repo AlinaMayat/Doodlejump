@@ -58,8 +58,12 @@ function draw() {
   //kjol
   fill(91, 198, 227);
   arc(230, 570, 60, 50, PI, 0);
-  fill(0);
+
+  //förkläde
+    fill(225);
+  arc(229.5, 565, 40, 40, PI, 0);
   //fötter
+  fill(0);
   circle(210, 595, 10);
   circle(250, 595, 10);
 }
