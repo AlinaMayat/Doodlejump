@@ -13,15 +13,6 @@ function draw() {
   //Moving platform - cards
   //Breaking platforms - Teacups/porcelain
 
-
-    // moln
-     fill(255);
-    noStroke(circle);
-        circle(20, 100, 30); 
-        circle(39, 85, 20);
-        circle(65, 95, 40);
-        circle(90, 100, 30);
-        circle(39, 95, 45);
     
 //losing screen
     //You Lost! 
@@ -31,6 +22,7 @@ function draw() {
 
   //character
   //hår
+  noStroke();
   fill(230, 500, 0);
   rect(200, 490, 55, 60, 10);
   //huvud
