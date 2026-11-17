@@ -18,9 +18,30 @@ background(137, 207, 240);
 
     fill(100,49,2);
      rect(0, 550, 400, 60);
-//normal platforms 
 
-    //gräs
+    //normal platforms - open books
+    
+// Book cover
+  fill(100, 55, 35);
+  stroke(60, 35, 25);
+  strokeWeight(2);
+  quad(85, 255, 150, 265, 150, 285, 85, 275);
+  quad(150, 265, 215, 255, 215, 275, 150, 285);
+
+ //Open pages
+  fill(255, 248, 225);
+  quad(85, 250, 150, 265, 150, 278, 85, 263);
+  quad(150, 265, 215, 250, 215, 263, 150, 278);
+
+  // Writing on pages
+  stroke(190, 175, 145);
+  strokeWeight(1);
+  line(95, 254, 140, 265);
+  line(95, 259, 140, 270);
+  line(160, 265, 205, 254);
+  line(160, 270, 205, 259);
+
+  noStroke();
 fill (194, 242, 177);
 rect(100, 450, 100, 20);
 fill(100, 50, 2);
@@ -72,5 +93,5 @@ rect(100, 470, 100, 15);
     //You Lost! 
 
 //character
-
 }
+
