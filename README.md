@@ -1,1 +1,1 @@
-# Doodlejump.js
+# Doodlejump
