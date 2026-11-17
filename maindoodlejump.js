@@ -13,19 +13,6 @@ function draw() {
   //Moving platform - cards
   //Breaking platforms - Teacups/porcelain
 
-<<<<<<< Updated upstream
-  //moln
-  fill(255);
-  noStroke(circle);
-  circle(20, 100, 30);
-  circle(39, 85, 20);
-  circle(65, 95, 40);
-  circle(90, 100, 30);
-  circle(39, 95, 45);
-
-  //losing screen
-  //You Lost!
-=======
 //normal still platforms - books
 
 //moving platforms - cards
@@ -65,7 +52,6 @@ arc(230, 570, 60, 50, PI, 0);
 fill(0);
 circle(210, 595, 10);
 circle(250, 595, 10);
->>>>>>> Stashed changes
 
   //character
   //hår
