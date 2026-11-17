@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  background(137, 207, 240);
+  background(130, 70, 30);
 
   //Start screen
   //3, 2, 1, GO!
