@@ -69,5 +69,8 @@ function draw() {
   circle(210, 595, 10);
   circle(250, 595, 10);
 
-  
+ noFill();
+  rect(196, 476, 70, 124);
+
+
 }
