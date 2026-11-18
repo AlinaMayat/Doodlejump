@@ -62,7 +62,7 @@ function draw() {
   arc(230, 570, 60, 50, PI, 0);
 
   //förkläde
-    fill(250);
+    fill(255);
   arc(229.5, 565, 40, 40, PI, 0);
   //fötter
   fill(0);
