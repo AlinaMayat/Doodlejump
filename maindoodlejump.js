@@ -68,4 +68,6 @@ function draw() {
   fill(0);
   circle(210, 595, 10);
   circle(250, 595, 10);
+
+  
 }
