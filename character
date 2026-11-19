@@ -27,8 +27,8 @@ noStroke();
   fill(0);
   arc(227, 495, 33, 10, PI, TWO_PI);
   fill(0);
-  triangle(215, 495, 227, 490, 210, 475);
-  triangle(240, 495, 227, 490, 244, 475);
+  triangle(215, 498, 227, 490, 210, 475);
+  triangle(240, 498, 227, 490, 244, 475);
 
    //armar
   fill(220, 190, 150);
@@ -58,7 +58,7 @@ noStroke();
   circle(210, 595, 10);
   circle(250, 595, 10);
 
-  noFill();
+ noFill();
   rect(196, 476, 70, 124);
 
   pop(); 
