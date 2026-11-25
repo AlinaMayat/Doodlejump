@@ -1,7 +1,12 @@
 
+class Hat{
+    constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
 
 
-function draw (){
+draw (){
    
  push();
 translate(100, 100);
@@ -16,4 +21,11 @@ translate(100, 100);
     rect(165, 296, 70, 50);
 
 pop();
+}
+}
+const myHat = new Hat(0, 0);
+
+function draw() {
+  myHat.draw();
+
 }
