@@ -12,6 +12,7 @@ function draw() {
 
   //Normal platform - Books
   
+  
   //Moving platform - cards
   //Breaking platforms - Teacups/porcelain
 
