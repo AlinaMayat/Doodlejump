@@ -71,9 +71,6 @@ class Character {
 }
 
 const myCharacter = new Character(this.xPos, this.yPos);
-function setup(){
-  createCanvas(500,600);
-}
 function draw() {
 myCharacter.draw();
 }
