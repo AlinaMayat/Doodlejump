@@ -1,5 +1,10 @@
+class Plate{
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
 
-function draw() {
+draw() {
 
   // Plate
   fill(255, 250, 235);
@@ -41,5 +46,12 @@ function draw() {
   ellipse(98, 269, 13, 5);
   ellipse(180, 253, 13, 5);
   ellipse(202, 269, 13, 5);
+
+}
+}
+const myPlate = new Plate(0, 0);
+
+function draw() {
+  myPlate.draw();
 
 }

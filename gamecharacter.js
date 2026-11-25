@@ -27,7 +27,7 @@ class Character {
     fill(247, 229, 151);
     arc(227.5, 503, 55, 50, PI, 0);
 
-  //diadem
+    //diadem
     fill(0);
     arc(227, 495, 33, 10, PI, TWO_PI);
     fill(0);
