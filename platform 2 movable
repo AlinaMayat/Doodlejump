@@ -1,15 +1,11 @@
 
-let x = 200;
-let speedX = 1.5; 
+
 
 function draw (){
-    x = x + speedX;
-       if(x<150 || x>350){
-        speedX=-speedX;
-    } 
+   
  push();
-translate();
- 
+translate(100, 100);
+
     fill(120, 150, 100);
     rect(165, 300, 70, 40);
     ellipse(200, 300, 70, 10); 
