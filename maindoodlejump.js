@@ -1,5 +1,6 @@
-import { Character } from './gameCharacter.js';
-
+import { Character } from "./gameCharacter.js";
+import { Book } from "./platformNormal.js";
+import {Hat} from './platformMovable.js';
 
 //backgrund
 
@@ -8,14 +9,17 @@ function setup() {
 }
 
 const myCharacter = new Character(10, 20, 70, 124);
+const myBook = new Book(100, 100);
+const myHat = new Hat(200, 200);
 
 function draw() {
-<<<<<<< HEAD
   background(153, 113, 67);
   myCharacter.draw();
-=======
-  background(150, 121, 105);
->>>>>>> e44a515bfe84291b90688959776cb10558412d1d
+
+  myBook.draw();
+
+myHat.draw();
+
 
   //Start screen
   //3, 2, 1, GO!
@@ -28,23 +32,14 @@ function draw() {
 
   //Breaking platforms - Teacups/porcelain
 
-    
-//losing screen
-    //You Lost! 
-
-
-    
+  //losing screen
+  //You Lost!
 }
 
-
-
-function keyPressed(){
+function keyPressed() {
   if (keyCode === LEFT_ARROW) {
     myCharacter.xPos -= 2;
   } else if (keyCode === RIGHT_ARROW) {
     myCharacter.xPos += 2;
   }
 }
-
-
-
