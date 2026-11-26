@@ -1,4 +1,5 @@
-
+let xHat= 100;
+let speedHat = 3;
 class Hat{
     constructor(x, y) {
     this.x = x;
@@ -7,9 +8,14 @@ class Hat{
 
 
 draw (){
-   
+  xHat = xHat + speedHat;
+ 
+  if(xHat<50 || xHat>300){
+        speedHat=-speedHat;
+    }
+
  push();
-translate(100, 100);
+translate(this.x, this.y);
 
     fill(120, 150, 100);
     rect(165, 300, 70, 40);

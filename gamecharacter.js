@@ -1,5 +1,7 @@
+let x =10;
+let speedCharacter = 50;
 
-class Character {
+export default class Character {
     constructor(x, y, width, height){
       this.xPos = x;
       this.yPos = y;
@@ -70,7 +72,3 @@ class Character {
   }
 }
 
-const myCharacter = new Character(this.xPos, this.yPos);
-function draw() {
-myCharacter.draw();
-}
