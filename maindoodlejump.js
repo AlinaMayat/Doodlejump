@@ -1,6 +1,8 @@
 import { Character } from './gameCharacter.js';
 
+
 //backgrund
+
 function setup() {
   createCanvas(500, 700);
 }
@@ -14,10 +16,12 @@ function draw() {
   //Start screen
   //3, 2, 1, GO!
 
+  //Character
+
   //Normal platform - Books
-  
-  
+
   //Moving platform - cards
+
   //Breaking platforms - Teacups/porcelain
 
     
