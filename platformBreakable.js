@@ -6,6 +6,9 @@ class Plate{
 
 draw() {
 
+  push();
+  translate(this.x, this.y);
+
   // Plate
   fill(255, 250, 235);
   stroke(65, 95, 145);
@@ -47,6 +50,7 @@ draw() {
   ellipse(180, 253, 13, 5);
   ellipse(202, 269, 13, 5);
 
+  pop();
 }
 }
 const myPlate = new Plate(0, 0);
