@@ -1,10 +1,10 @@
-class Plate{
+export default class Plate{
   constructor(x, y) {
     this.x = x;
     this.y = y;
   }
 
-draw() {
+  draw() {
 
   push();
   translate(this.x, this.y);
@@ -51,11 +51,6 @@ draw() {
   ellipse(202, 269, 13, 5);
 
   pop();
+  }
 }
-}
-const myPlate = new Plate(0, 0);
 
-function draw() {
-  myPlate.draw();
-
-}
